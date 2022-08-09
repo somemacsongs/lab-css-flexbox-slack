@@ -14,7 +14,9 @@ nav grey: #5b5e6d;
     border-style: solid;
     border-left: none;
     border-right: none;
-    border-color: #F4F3F4;
+    border-color: #dadada;
+    position: fixed;
+    background-color: white;
 }
 
 .flex-menu {
@@ -26,16 +28,26 @@ nav grey: #5b5e6d;
 }
 
 .menu {
-    justify-items: center;
     text-align: center;
+    vertical-align: middle;
     width: 150px;
     font-size: large;
+    font-family: 'Nimbus Sans L', sans-serif;
+    color: rgb(151, 149, 149);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 #logo-nav {
-    margin-left: 5.2%;
-    width: 8%;
-    height: 8%;
+    margin-left: 2.8%;
+    width: 7.5%;
+    height: 7.5%;
+}
+#workspace{
+    border-style: solid;
+    border-color: rgb(151, 149, 149);
+    border-radius: 10%;
 }
 
 
